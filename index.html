@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <input type="radio" name="icon-toggle" id="default-radio" checked style="display: none;">
+    <input type="radio" name="icon-toggle" id="about" style="display: none;">
+    <input type="radio" name="icon-toggle" id="links" style="display: none;">
+    <input type="radio" name="icon-toggle" id="work" style="display: none;">
+    <input type="radio" name="icon-toggle" id="faq" style="display: none;">
+    <input type="radio" name="icon-toggle" id="contact" style="display: none;">
+    <div class="container">
+        <div class="box">
+            <div class="name"><h2>Hi, I'm Walid</h1></div>
+            <div class="post"><h3>Competitive Programmer, Developer</h4></div>
+            <div class="icon-section">
+                <label class="icon-item" for="about">
+                    <input type="radio" name="icon-toggle" id="projects-radio">
+                    <div class="icon"><img src = "images/sign_13604119.png" width="60px"></div>
+                    <div class="icon-name">About</div>
+                </label>
+
+                <label class="icon-item" for="links">
+                    <input type="radio" name="icon-toggle" id="projects-radio">
+                    <div class="icon"><img src = "images/link_13609622.png" width = "60px"></div>
+                    <div class="icon-name">Links</div>
+                </label>
+
+                <label class="icon-item" for="work">
+                    <input type="radio" name="icon-toggle" id="projects-radio">
+                    <div class="icon"><img src = "images/suitcase_13722877.png" width = "60px"></div>
+                    <div class="icon-name">Work</div>
+                </label>
+
+                <label class="icon-item" for="faq">
+                    <input type="radio" name="icon-toggle" id="projects-radio">
+                    <div class="icon"><img src = "images/answer-sheet_13605942.png" width = "60px"></div>
+                    <div class="icon-name">FAQ</div>
+                </label>
+
+                <label class="icon-item" for="contact">
+                    <input type="radio" name="icon-toggle" id="projects-radio">
+                    <div class="icon"><img src = "images/business_13716424.png" width = "60px"></div>
+                    <div class="icon-name">Contact</div>
+                </label>
+
+                
+            </div>
+        </div>
+
+        <div class="details-box about">
+            <label class="close-button" for="default-radio">✖</label>
+            <h2></h2>
+            <!-- <p>
+                I'm Latifur Rahman Walid, a Computer Science and Engineering (CSE) student at 
+                <strong>Shahjalal University of Science and Technology (SUST)</strong>, 
+                expecting to graduate in March 2026.
+            </p> -->
+
+            <!-- Education Section -->
+            <h3>Education</h3>
+            <p><strong>Bachelor of Science in Computer Science and Engineering (CSE)</strong></p>
+            <p>Shahjalal University of Science and Technology (SUST)</p>
+
+            <!-- Language Proficiency Section -->
+            <h3>Language Proficiency</h3>
+            <p>
+                I have native fluency in <strong>Bengali</strong>, and am proficient in <strong>English</strong>.
+            </p>
+        
+        </div>
+
+        <div class="details-box links">
+            <label class="close-button" for="default-radio">✖</label>
+            <h2></h2>
+            <div class="mylinks">
+                <a href = "https://www.linkedin.com/in/lrwalid" target="_blank" class = "mylinks-icon">
+                    <img src = "images/links/linkedin-logo.png"> 
+                    <p class = "mylinks-name"> LinkedIn </p>
+                </a>
+                <a href = "https://codeforces.com/profile/Walid238" target="_blank" class = "mylinks-icon">
+                    <img src = "images/links/cf-logo.png"> 
+                    <p class = "mylinks-name"> Codeforces </p>
+                </a>
+                <a href = "https://www.facebook.com/latifur.rahman.walid/" target="_blank" class = "mylinks-icon">
+                    <img src = "images/links/social-media-fb_13716487.png"> 
+                    <p class = "mylinks-name"> Facebook </p>
+                </a>
+                <a href = "https://www.photocrowd.com/photographer-community/516558/" target="_blank" class = "mylinks-icon">
+                    <img src = "images/links/photocrowd-1324440212072052478_0px.svg"> 
+                    <p class = "mylinks-name"> Photocrowd</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="details-box work">
+            <label class="close-button" for="default-radio">✖</label>
+            <div class="works-section">
+                <h2>TOOLS</h2>
+                <div class="work-tags">
+                    <span class="tag">LATEX</span>
+                    <span class="tag">Android Studio</span>
+                    <span class="tag">Arduino IDE</span>
+                    <span class="tag">MS Office</span>
+                </div>
+            </div>
+
+            <!-- DEVELOPMENT Section -->
+            <div class="works-section">
+                <h2>DEVELOPMENT</h2>
+                <div class="work-tags">
+                    <span class="tag">C</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">HTML/CSS</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">JavaFx</span>
+
+                </div>
+            </div>
+
+            <p> See more on <a href = "https://github.com/Walid-2020331024" style="text-decoration: none; color: black;"> GitHub</a> </p>
+        </div>
+
+        <div class="details-box faq">
+            <label class="close-button" for="default-radio">✖</label>
+            <h2>FAQs</h2>
+            <p>Coming Soon...</p>
+        </div>
+
+        <div class="details-box contact">
+            <label class="close-button" for="default-radio">✖</label>
+            <h2>Contact</h2>
+            <p>email me at: <a href = "mailto:latifurrahman2001@gmail.com"> latifurrahman2001@gmail.com </a> </p>
+
+        </div>
+    </div>
+</body>
+</html>

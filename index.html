@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Walid</title>
     <link rel = "stylesheet" href = "styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <input type="checkbox" id="dark-mode-toggle" style="display: none;">
+    <label for="dark-mode-toggle" class="dark-mode-icon">
+        <img src="images/camera_13611214.png" alt="Light Mode" class="light-icon" width="45px">
+        <img src="images/moon_14626954.png" alt="Dark Mode" class="dark-icon" width="45px">
+    </label>
+
     <input type="radio" name="icon-toggle" id="default-radio" checked style="display: none;">
     <input type="radio" name="icon-toggle" id="about" style="display: none;">
     <input type="radio" name="icon-toggle" id="links" style="display: none;">
@@ -55,18 +62,11 @@
         <div class="details-box about">
             <label class="close-button" for="default-radio">✖</label>
             <h2></h2>
-            <!-- <p>
-                I'm Latifur Rahman Walid, a Computer Science and Engineering (CSE) student at 
-                <strong>Shahjalal University of Science and Technology (SUST)</strong>, 
-                expecting to graduate in March 2026.
-            </p> -->
 
-            <!-- Education Section -->
             <h3>Education</h3>
             <p><strong>Bachelor of Science in Computer Science and Engineering (CSE)</strong></p>
             <p>Shahjalal University of Science and Technology (SUST)</p>
 
-            <!-- Language Proficiency Section -->
             <h3>Language Proficiency</h3>
             <p>
                 I have native fluency in <strong>Bengali</strong>, and am proficient in <strong>English</strong>.
@@ -109,7 +109,6 @@
                 </div>
             </div>
 
-            <!-- DEVELOPMENT Section -->
             <div class="works-section">
                 <h2>DEVELOPMENT</h2>
                 <div class="work-tags">
@@ -124,7 +123,7 @@
                 </div>
             </div>
 
-            <p> See more on <a href = "https://github.com/Walid-2020331024" style="text-decoration: none; color: black;"> GitHub</a> </p>
+            <p> See more on <a href = "https://github.com/Walid-2020331024" class = "showedlink-text"> GitHub</a> </p>
         </div>
 
         <div class="details-box faq">
@@ -136,7 +135,7 @@
         <div class="details-box contact">
             <label class="close-button" for="default-radio">✖</label>
             <h2>Contact</h2>
-            <p>email me at: <a href = "mailto:latifurrahman2001@gmail.com"> latifurrahman2001@gmail.com </a> </p>
+            <p>email me at: <a href = "mailto:latifurrahman2001@gmail.com" class = "showedlink-text"> latifurrahman2001@gmail.com </a> </p>
 
         </div>
     </div>
